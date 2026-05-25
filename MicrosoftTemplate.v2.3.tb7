@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <KnowledgeBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Manifest name="Microsoft Threat Model Template " id="cc62ebae-3748-431e-b1df-f4220dc9003a" version="2.1.0.36" author="AZARCH\pgallucci" />
+  <Manifest name="Microsoft Threat Model Template " id="cc62ebae-3748-431e-b1df-f4220dc9003a" version="2.1.0.37" author="AZARCH\pgallucci" />
   <ThreatMetaData>
     <IsPriorityUsed>true</IsPriorityUsed>
     <IsStatusUsed>true</IsStatusUsed>
@@ -3590,7 +3590,7 @@ Azure Data fabrics and related services.
       </StencilConstraints>
     </ElementType>
     <ElementType>
-      <Name>Microsoft Purview</Name>
+      <Name>Microsoft Purview </Name>
       <ID>SE.DS.TMCore.DataCatalog</ID>
       <Description>Microsoft Purview is a fully managed cloud service whose users can discover the data sources they need and understand the data sources they find. </Description>
       <ParentElement>GE.DS</ParentElement>
@@ -5247,43 +5247,7 @@ Azure Data fabrics and related services.
           <IsInherited>true</IsInherited>
           <Name>ShowBoundaryThreats</Name>
           <DisplayName>Show Boundary Threats</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>7e63f025-cb2a-40e0-b6d3-8555f31dce57</Id>
-          <IsInherited>true</IsInherited>
-          <Name>ShowBoundaryThreats</Name>
-          <DisplayName>Show Boundary Threats</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>7e63f025-cb2a-40e0-b6d3-8555f31dce57</Id>
-          <IsInherited>true</IsInherited>
-          <Name>ShowBoundaryThreats</Name>
-          <DisplayName>Show Boundary Threats</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>7e63f025-cb2a-40e0-b6d3-8555f31dce57</Id>
-          <IsInherited>true</IsInherited>
-          <Name>ShowBoundaryThreats</Name>
-          <DisplayName>Show Boundary Threats</DisplayName>
-          <Mode>Dynamic</Mode>
+          <Mode>Static</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -5314,43 +5278,7 @@ Azure Data fabrics and related services.
           <IsInherited>true</IsInherited>
           <Name>ShowBoundaryThreats</Name>
           <DisplayName>Show Boundary Threats</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>7e63f025-cb2a-40e0-b6d3-8555f31dce57</Id>
-          <IsInherited>true</IsInherited>
-          <Name>ShowBoundaryThreats</Name>
-          <DisplayName>Show Boundary Threats</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>7e63f025-cb2a-40e0-b6d3-8555f31dce57</Id>
-          <IsInherited>true</IsInherited>
-          <Name>ShowBoundaryThreats</Name>
-          <DisplayName>Show Boundary Threats</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>7e63f025-cb2a-40e0-b6d3-8555f31dce57</Id>
-          <IsInherited>true</IsInherited>
-          <Name>ShowBoundaryThreats</Name>
-          <DisplayName>Show Boundary Threats</DisplayName>
-          <Mode>Dynamic</Mode>
+          <Mode>Static</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -5381,43 +5309,7 @@ Azure Data fabrics and related services.
           <IsInherited>true</IsInherited>
           <Name>ShowBoundaryThreats</Name>
           <DisplayName>Show Boundary Threats</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>7e63f025-cb2a-40e0-b6d3-8555f31dce57</Id>
-          <IsInherited>true</IsInherited>
-          <Name>ShowBoundaryThreats</Name>
-          <DisplayName>Show Boundary Threats</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>7e63f025-cb2a-40e0-b6d3-8555f31dce57</Id>
-          <IsInherited>true</IsInherited>
-          <Name>ShowBoundaryThreats</Name>
-          <DisplayName>Show Boundary Threats</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>7e63f025-cb2a-40e0-b6d3-8555f31dce57</Id>
-          <IsInherited>true</IsInherited>
-          <Name>ShowBoundaryThreats</Name>
-          <DisplayName>Show Boundary Threats</DisplayName>
-          <Mode>Dynamic</Mode>
+          <Mode>Static</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -5448,43 +5340,7 @@ Azure Data fabrics and related services.
           <IsInherited>true</IsInherited>
           <Name>ShowBoundaryThreats</Name>
           <DisplayName>Show Boundary Threats</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>7e63f025-cb2a-40e0-b6d3-8555f31dce57</Id>
-          <IsInherited>true</IsInherited>
-          <Name>ShowBoundaryThreats</Name>
-          <DisplayName>Show Boundary Threats</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>7e63f025-cb2a-40e0-b6d3-8555f31dce57</Id>
-          <IsInherited>true</IsInherited>
-          <Name>ShowBoundaryThreats</Name>
-          <DisplayName>Show Boundary Threats</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>7e63f025-cb2a-40e0-b6d3-8555f31dce57</Id>
-          <IsInherited>true</IsInherited>
-          <Name>ShowBoundaryThreats</Name>
-          <DisplayName>Show Boundary Threats</DisplayName>
-          <Mode>Dynamic</Mode>
+          <Mode>Static</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -5515,43 +5371,7 @@ Azure Data fabrics and related services.
           <IsInherited>true</IsInherited>
           <Name>ShowBoundaryThreats</Name>
           <DisplayName>Show Boundary Threats</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>7e63f025-cb2a-40e0-b6d3-8555f31dce57</Id>
-          <IsInherited>true</IsInherited>
-          <Name>ShowBoundaryThreats</Name>
-          <DisplayName>Show Boundary Threats</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>7e63f025-cb2a-40e0-b6d3-8555f31dce57</Id>
-          <IsInherited>true</IsInherited>
-          <Name>ShowBoundaryThreats</Name>
-          <DisplayName>Show Boundary Threats</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>7e63f025-cb2a-40e0-b6d3-8555f31dce57</Id>
-          <IsInherited>true</IsInherited>
-          <Name>ShowBoundaryThreats</Name>
-          <DisplayName>Show Boundary Threats</DisplayName>
-          <Mode>Dynamic</Mode>
+          <Mode>Static</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -5598,43 +5418,7 @@ Azure Data fabrics and related services.
           <IsInherited>true</IsInherited>
           <Name>ShowBoundaryThreats</Name>
           <DisplayName>Show Boundary Threats</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>7e63f025-cb2a-40e0-b6d3-8555f31dce57</Id>
-          <IsInherited>true</IsInherited>
-          <Name>ShowBoundaryThreats</Name>
-          <DisplayName>Show Boundary Threats</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>7e63f025-cb2a-40e0-b6d3-8555f31dce57</Id>
-          <IsInherited>true</IsInherited>
-          <Name>ShowBoundaryThreats</Name>
-          <DisplayName>Show Boundary Threats</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>7e63f025-cb2a-40e0-b6d3-8555f31dce57</Id>
-          <IsInherited>true</IsInherited>
-          <Name>ShowBoundaryThreats</Name>
-          <DisplayName>Show Boundary Threats</DisplayName>
-          <Mode>Dynamic</Mode>
+          <Mode>Static</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -5667,43 +5451,7 @@ Azure Data fabrics and related services.
           <IsInherited>true</IsInherited>
           <Name>ShowBoundaryThreats</Name>
           <DisplayName>Show Boundary Threats</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>7e63f025-cb2a-40e0-b6d3-8555f31dce57</Id>
-          <IsInherited>true</IsInherited>
-          <Name>ShowBoundaryThreats</Name>
-          <DisplayName>Show Boundary Threats</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>7e63f025-cb2a-40e0-b6d3-8555f31dce57</Id>
-          <IsInherited>true</IsInherited>
-          <Name>ShowBoundaryThreats</Name>
-          <DisplayName>Show Boundary Threats</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>7e63f025-cb2a-40e0-b6d3-8555f31dce57</Id>
-          <IsInherited>true</IsInherited>
-          <Name>ShowBoundaryThreats</Name>
-          <DisplayName>Show Boundary Threats</DisplayName>
-          <Mode>Dynamic</Mode>
+          <Mode>Static</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
